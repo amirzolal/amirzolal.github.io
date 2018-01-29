@@ -60,12 +60,15 @@ window[disableStr] = true;
 		 <div id="Dialog01" data-role="popup" data-position-to="window"  >
        <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Schließen</a>
        <p class="poltext">
-		   Das Bildmaterial für diese WebApp wurde unter anderem aus folgenden Quellen acquiriert:
+		   Das Bildmaterial für diese WebApp wurde unter anderen aus folgenden Quellen mit freien Lizenzen acquiriert:
 		   <br><br>
 			 <ul>
-		   <li><a target="_blank" href="http://www.cancerimagingarchive.net/">http://www.cancerimagingarchive.net/ (Glioblastom)</a></li>
-			 <li><a target="_blank" href="http://www.radiopaedia.org/">Radiopaedia // Prof. Frank Gillard (Abszess F1, Glioblastom F3, HWS F4)</a></li>
-			 <li><a target="_blank" href="https://openi.nlm.nih.gov/detailedresult.php?img=PMC3936646_ymj-55-401-g004&req=4">Kim YB, Hong CK, Chung J, Joo JY, Huh SK - Yonsei Med. J. (2014) - Bilder vom Aneurysma (verändert)</a></li>
+		   <li><a target="_blank" href="http://www.cancerimagingarchive.net/">http://www.cancerimagingarchive.net/ (MRT vom Tumor, F1)</a></li>
+			 <li><a target="_blank" href="http://www.radiopaedia.org/">Radiopaedia</a></li> 
+			 <li>Radiopaedia - Prof. Frank Gillard (Abszess F1, Glioblastom F3 - MRT, postoperative Bilder, HWS F4)</li>
+			 <li>Radiopaedia - Prof. Peter Mitchell (SAB CT, F2)</li>
+			 <li>Radiopaedia - Dr. Hani Salam (Tumor CT, F3)</li>
+			 <li><a target="_blank" href="https://openi.nlm.nih.gov/detailedresult.php?img=PMC3936646_ymj-55-401-g004&req=4">Kim YB, Hong CK, Chung J, Joo JY, Huh SK - Yonsei Med. J. (2014) - F2, Aneurysma, DSA und Fotos (geändert, angepasst)</a></li>
 		   </ul>
        <a href="#" data-role="button" data-position="fixed" data-rel="back">Schließen</a>
 			 </p>
@@ -693,15 +696,11 @@ Nach 6 Monaten kommt die Patientin zur Kontrolle in die neurochirurgische Ambula
 
   <br><br>
 
-	<a href="#Fall03Page02Dialog01" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow" data-transition="slidedown">CT Bild 1</a>
+	<a href="#Fall03Page02Dialog01" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow" data-transition="slidedown">CT Bild</a>
 	<div id="Fall03Page02Dialog01" data-role="popup" data-overlay-theme="b" data-theme="b" >
 	<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img src="img/F03I01.jpg" alt="CT Bild" class="popphoto" style="max-height:512px;">
 	</div>
-	<a href="#Fall03Page02Dialog02" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow" data-transition="slidedown">CT Bild 2</a>
-	<div id="Fall03Page02Dialog02" data-role="popup" data-overlay-theme="b" data-theme="b" >
-	<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img src="img/F03I02.jpg" alt="CT Bild" class="popphoto" style="max-height:512px;">
-	</div>
-
+	
   <a href="#Fall03Page02Dialog03" data-rel="popup" class="ui-btn ui-corner-all ui-shadow" data-transition="slidedown">Lernpunkte</a>
 
 	<div id="Fall03Page02Dialog03" data-role="popup" data-position-to="window">
@@ -762,9 +761,13 @@ Nach 6 Monaten kommt die Patientin zur Kontrolle in die neurochirurgische Ambula
 
   <br><br>
 
-	<a href="#Fall03Page04Dialog01" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow" data-transition="slidedown">MRT Bild</a>
+	<a href="#Fall03Page04Dialog01" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow" data-transition="slidedown">MRT Bild - ohne KM</a>
 	<div id="Fall03Page04Dialog01" data-role="popup" data-overlay-theme="b" data-theme="b" >
 	<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img src="img/F03I03.jpg" alt="MRT Bild" class="popphoto" style="max-height:512px;">
+	</div>
+    <a href="#Fall03Page04Dialog01a" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow" data-transition="slidedown">MRT Bild - mit KM</a>
+	<div id="Fall03Page04Dialog01a" data-role="popup" data-overlay-theme="b" data-theme="b" >
+	<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img src="img/F03I04.jpg" alt="MRT Bild" class="popphoto" style="max-height:512px;">
 	</div>
 
 	<a href="#Fall03Page04Dialog02" data-rel="popup" class="ui-btn ui-corner-all ui-shadow" data-transition="slidedown">Lernpunkte</a>
@@ -831,10 +834,15 @@ Dem Stationarzt fällt in der neurologischen Untersuchung die weiterhin bestehen
 
   <br><br>
 
-	<a href="#Fall03Page06Dialog01" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow" data-transition="slidedown">Postoperatives MRT Bild</a>
+	<a href="#Fall03Page06Dialog01" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow" data-transition="slidedown">Postoperatives MRT Bild - ohne KM</a>
 	<div id="Fall03Page06Dialog01" data-role="popup" data-overlay-theme="b" data-theme="b" >
-	<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img src="img/F03I04.jpg" alt="MRT Bild" class="popphoto" style="max-height:512px;">
+	<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img src="img/F03I05.jpg" alt="MRT Bild" class="popphoto" style="max-height:512px;">
 	</div>
+	<a href="#Fall03Page06Dialog01a" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow" data-transition="slidedown">Postoperatives MRT Bild - mit KM</a>
+	<div id="Fall03Page06Dialog01a" data-role="popup" data-overlay-theme="b" data-theme="b" >
+	<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img src="img/F03I06.jpg" alt="MRT Bild" class="popphoto" style="max-height:512px;">
+	</div>
+
 
 	<a href="#Fall03Page06Dialog02" data-rel="popup" class="ui-btn ui-corner-all ui-shadow" data-transition="slidedown">Lernpunkte</a>
 
@@ -1145,6 +1153,10 @@ Herr Dr. Jäger überweist die Patientin in die Klinik für Neurochirurgie mit B
     Postoperativ berichtet die Patientin von einer deutlichen Schmerzlinderung vor allem im Arm und in der Hand, die Nackenschmerzen sind zwar besser geworden, sind aber noch nicht ganz weg. Die behandelnde Assistenzärztin klärt die Patientin auf, dass die Nackenschmerzen nicht unbedingt durch die Spinalkanalstenose verursacht werden, und dass eine weitere Rehabilitation mit Stärkung der Nackenmuskulatur notwendig wird. Die Patientin ist zufrieden. Die Drainage wird am zweiten postoperativen Tag entfernt, die Patientin kann am 5. postoperativen Tag entlassen werden.
   <br><br>
   </p>
+	<a href="#Fall04Page06aDialog01" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow" data-transition="slidedown">Postoperative Röntgenaufnahme</a>
+	<div id="Fall04Page06aDialog01" data-role="popup" data-overlay-theme="b" data-theme="b">
+	<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img src="img/F04I06.jpg" class="popphoto" style="max-height:512px;" alt="Röntgenaufnahme">
+	</div>
 	<a href="#Fall04Page06Dialog01a" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow" data-transition="slidedown">Lernpunkte</a>
 	<div id="Fall04Page06Dialog01a" data-role="popup" >
 	  <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
